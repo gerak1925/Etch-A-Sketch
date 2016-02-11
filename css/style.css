@@ -1,0 +1,23 @@
+* {
+	text-align: center;
+}
+
+#resetButton {
+	decoration: none;
+	margin-top: 20px;
+}
+
+#inner {
+	border: 1px solid black;
+	width: 500px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#pixel {
+	width: 5px;
+	height: 5px;
+	display: inline-block;
+}
