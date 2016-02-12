@@ -16,14 +16,15 @@ div {
 #inner {
 	width: 800px;
 	overflow: auto;
+	margin: auto;
 }
 
 #pixel {
 	width: 10px;
 	height: 10px;
-	background-color: yellow;
+	background-color: white;
+	border: 1px solid black;
 	float: left;
-	margin: 0;
 }
 
 .entering {
