@@ -7,8 +7,8 @@ $(document).ready(function() {
 	};
 
 	
-	pixel.on("click", function() {
-		pixel.css({'background-color':'black'});
+	$('#pixel').on("click", function() {
+		$(this).addClass('entering');
 	});
 	
 });

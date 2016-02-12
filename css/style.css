@@ -1,27 +1,31 @@
-* {
+div {
+	display: block;
+}
+
+#top-container {
 	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 #resetButton {
 	decoration: none;
-	margin-top: 20px;
 }
 
 #inner {
-	border: 1px solid black;
-	width: 500px;
-	height: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	display: block;
+	width: 800px;
+	overflow: auto;
 }
 
 #pixel {
 	width: 10px;
 	height: 10px;
-	
 	background-color: yellow;
-	display: inline-block;
+	float: left;
 	margin: 0;
+}
+
+.entering {
+	background-color: black;
 }
