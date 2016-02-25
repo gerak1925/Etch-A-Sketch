@@ -1,32 +1,39 @@
-div {
-	display: block;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-#top-container {
-	text-align: center;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+.wrap {
+  width: 1140px;
+  margin: auto;
+}
+.wrap button {
+    text-align: center;
 }
 
-#resetButton {
-	decoration: none;
+h1 {
+  text-align: center;
 }
 
-#inner {
-	width: 800px;
-	overflow: auto;
-	margin: auto;
+.container {
+  margin-top: 20px;
 }
 
-#pixel {
-	width: 10px;
-	height: 10px;
-	background-color: white;
-	border: 1px solid black;
-	float: left;
+.innerContainer {
+  margin: auto;
 }
 
-.entering {
-	background-color: black;
+.newDiv {
+  width: 26px;
+  height: 26px;
+  border: solid 1px black;
+  float:left;
+  display: inline-block;
+  margin: 2px;
+  background-color: black;
+}
+
+.button-mid {
+  width: 280px;
+  margin: auto;
 }
