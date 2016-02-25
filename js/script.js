@@ -6,8 +6,7 @@ $(document).ready(function() {
 		$('#inner').append('<div id="pixel"></div>');
 	};
 
-	
-	$('#pixel').on("click", function() {
+	$("#pixel").hover(function() {
 		$(this).addClass('entering');
 	});
 	
